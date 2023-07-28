@@ -24,7 +24,7 @@
         height: 100vh;
         background: var(--bc);
         .art{
-                background-image: url('./photo1.jpg');
+                background-image: url('/photo1.jpg');
                 background-blend-mode: multiply;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -50,10 +50,12 @@
                         background-clip: text;
                         letter-spacing: 9px;
                         margin: 10px 0;
+
                         span{
                             justify-content: center;
                             display: flex;
                             flex-wrap: wrap;
+                            
                         }
                         span:nth-child(3){
                             background: var(--rpc);
